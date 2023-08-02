@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        let name = prompt("Введите Ваше имя!", "");
+        alert("Привет, " + name);
+        let age = prompt("Введите Ваш возраст!", "");
+        switch (Number(age)) {
+            case 18:
+                alert(name + ", тебе все можно!");
+                break;
+            case 10:
+                alert(name + ", у тебя все впереди!");
+                break;
+            case 35:
+                alert(name + ", твои лучшие годы!");
+                break;
+            default:
+                alert(name + ", выбирай занятие по душе!");
+        }
+    </script>
+</body>
+
+</html>
