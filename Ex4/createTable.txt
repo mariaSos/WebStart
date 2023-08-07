@@ -1,0 +1,24 @@
+--Создать таблицу
+CREATE TABLE students (
+id INTEGER PRIMARY KEY,
+name TEXT NOT NULL,
+age TEXT NOT NULL,
+address text not null
+);
+--Вставить данные
+INSERT INTO students VALUES (1, 'Мария', '28', 'Екатеринбург');
+INSERT INTO students VALUES (2, 'Ярослав', '21', 'Москва');
+INSERT INTO students VALUES (3, 'Евгений', '33', 'Томск');
+INSERT INTO students VALUES (4, 'Ольга', '23', 'Тюмень');
+INSERT INTO students VALUES (5, 'Анатолий', '18', 'Белгород');
+--Выполнить запрос
+select * from students;
+
+
+--Результат запроса
+id	name	age	address
+1	Мария	28	Екатеринбург
+2	Ярослав	21	Москва
+3	Евгений	33	Томск
+4	Ольга	23	Тюмень
+5	Анатолий	18	Белгород
